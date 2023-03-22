@@ -80,6 +80,15 @@
         "padding_bottom": 52
       }
     },
+    "16a59ccb-34c0-47d5-aa1f-56e2d8c209c2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title == \"Liquid\" %}\ntrang liquid\n{% else %}\nnot liquid\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "aa60c0b2-d627-45b0-9a3f-9b8ad9842275": {
       "type": "rich-text",
       "blocks": {
@@ -129,6 +138,7 @@
     "808d3ff0-4aad-4901-a5a2-bc7f71c5d314",
     "29678a60-f232-43ce-837c-8dcfb128c36d",
     "71687b7b-1132-46e9-a140-199e9afeb510",
+    "16a59ccb-34c0-47d5-aa1f-56e2d8c209c2",
     "aa60c0b2-d627-45b0-9a3f-9b8ad9842275",
     "78ef920d-2d21-4e64-b8c4-cb8712bc2432",
     "d05c91b8-1db7-4125-94dc-0249d445de99"
