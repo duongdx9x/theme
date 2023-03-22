@@ -6,9 +6,131 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "60dfe83c-266e-4302-a1dd-4bb8f619222a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18270010900773__60dfe83c-266e-4302-a1dd-4bb8f619222a-167944999740e86098-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Object<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18270010900773__60dfe83c-266e-4302-a1dd-4bb8f619222a-167944999740e86098-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2d8fd0a5-e52f-4d58-bfdf-263032148d9a": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ page.title }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "808d3ff0-4aad-4901-a5a2-bc7f71c5d314": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18270010900773__808d3ff0-4aad-4901-a5a2-bc7f71c5d314-167944999740e86098-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tag<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18270010900773__808d3ff0-4aad-4901-a5a2-bc7f71c5d314-167944999740e86098-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "29678a60-f232-43ce-837c-8dcfb128c36d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if page.title ==\"Liquid\" %}\nyes,this is liquid\n{% else %}\nthis not liquid\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "71687b7b-1132-46e9-a140-199e9afeb510": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% unless page.title == \"liquid\" %}\npage title is still liquid\n{% endunless %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "aa60c0b2-d627-45b0-9a3f-9b8ad9842275": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18270010900773__aa60c0b2-d627-45b0-9a3f-9b8ad9842275-167944999740e86098-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Filter<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18270010900773__aa60c0b2-d627-45b0-9a3f-9b8ad9842275-167944999740e86098-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "78ef920d-2d21-4e64-b8c4-cb8712bc2432": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{\"hello world\" | capitalize }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d05c91b8-1db7-4125-94dc-0249d445de99": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "60dfe83c-266e-4302-a1dd-4bb8f619222a",
+    "2d8fd0a5-e52f-4d58-bfdf-263032148d9a",
+    "808d3ff0-4aad-4901-a5a2-bc7f71c5d314",
+    "29678a60-f232-43ce-837c-8dcfb128c36d",
+    "71687b7b-1132-46e9-a140-199e9afeb510",
+    "aa60c0b2-d627-45b0-9a3f-9b8ad9842275",
+    "78ef920d-2d21-4e64-b8c4-cb8712bc2432",
+    "d05c91b8-1db7-4125-94dc-0249d445de99"
   ]
 }
